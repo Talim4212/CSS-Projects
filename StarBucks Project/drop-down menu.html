@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drop down menu</title>
+</head>
+<style>
+
+    *{
+        padding: 0;
+        /* margin: 0; */
+        font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+        /* background-color: #000;
+        color: #fff; */
+        /* border: 2px solid red; */
+    }
+
+    /*  </> Custome CSS Library </> */
+
+    .flex-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-center-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    /*  </> End Custome CSS Library </> */
+
+    body{
+        border: 2px dashed greenyellow;
+        /* border-right: 20px solid red; */
+        margin: 0px auto;
+        max-width: 1500px;
+        min-width: 300px;
+        padding: 0rem 0.2rem;
+        padding-bottom: 25rem;
+        margin-bottom: 10rem;
+        overflow: visible;
+    }
+
+    li, a{
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+
+    .drop-down{
+        position: fixed;
+    }
+
+
+</style>
+<body>
+    <!-- <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li class="btn"><a href="#">drop-Down-MENU</a>
+                <ul class="drop-down">
+                    <li><a href="#">Drop-Down 1</a></li>
+                    <li><a href="#">Drop-Down 2</a></li>
+                    <li><a href="#">Drop-Down 3</a></li>
+                    <li><a href="#">Drop-Down 4</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div> -->
+
+
+
+    <div class="links">
+        <ul>
+            <li class="about-us-btn">
+                <a href="#">About Us</a>
+                <ul class="drop-down">
+                    <li class="li-tags"><a href="#">Our Company</a></li>
+                    <li class="li-tags"><a href="#">Our Coffee</a></li>
+                    <li class="li-tags"><a href="#">Stories and News</a></li>
+                    <li class="li-tags"><a href="#">Starbucks Archive</a></li>
+                    <li class="li-tags"><a href="#">Investor Relations</a></li>
+                    <li class="li-tags"><a href="#">Customer Service</a></li>
+                    <li class="li-tags"><a href="#">Contact Us</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- <div class="Careers li-Tags">
+            <ul>
+                <li><a href="#">Culture and Values</a></li>
+                <li><a href="#">Inclusion, Diversity, and Equity</a></li>
+                <li><a href="#">College Achievement Plan</a></li>
+                <li><a href="#">Alumni Community</a></li>
+                <li><a href="#">U.S. Careers</a></li>
+                <li><a href="#">International Careers</a></li>
+                <li><a href="#">Social Impact</a></li>
+            </ul>
+        </div> -->
+</body>
+</html>

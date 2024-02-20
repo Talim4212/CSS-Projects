@@ -1,0 +1,135 @@
+.parent {
+    display: flex;
+  }
+  
+  .buttons {
+    margin-right: 20px;
+    font-size: 2rem;
+  }
+
+#card1, #card2, #card3, #card4, #card5{
+    min-width: 1000px;
+    height: 200px;
+    border: 2px solid blue;
+    margin: 1rem;
+}
+
+#card1{
+    background-color: yellowgreen;
+    position: absolute;
+    left: -900px;
+}
+
+#card2{
+    position: absolute;
+    left: -900px;
+    top: 150px;
+    background-color: red;
+}
+
+#card3{
+    position: absolute;
+    left: -900px;
+    top: 300px;
+    background-color: yellow;
+}
+
+#card4{
+    position: absolute;
+    left: -900px;
+    top: 450px;
+    background-color: aqua;
+}
+
+#card5{
+    position: absolute;
+    left: -900px;
+    top: 600px;
+    background-color: blue;
+}
+
+
+
+
+
+
+/* Checkbox Checked State */
+/* input[type="checkbox"]:checked ~ .cards #card1,
+input[type="checkbox"]:checked ~ .cards #card2,
+input[type="checkbox"]:checked ~ .cards #card3,
+input[type="checkbox"]:checked ~ .cards #card4,
+input[type="checkbox"]:checked ~ .cards #card5 {
+    display: block;
+} */
+
+
+#btn1:checked ~ .cards #card1{
+    left: 10px;
+    border-radius: 20px;
+}
+
+
+#btn2:checked ~ .cards #card2{
+    left: 10px;
+    border-radius: 20px;
+}
+
+#btn2:checked ~ .cards #card1{
+    left: -900px;
+    border-radius: 20px;
+}
+
+
+#btn3:checked ~ .cards #card1{
+    left: -900px;
+    border-radius: 20px;
+}
+
+#btn3:checked ~ .cards #card2{
+    left: -900px;
+    border-radius: 20px;
+}
+
+#btn3:checked ~ .cards #card3{
+    left: 10px;
+    border-radius: 20px;
+}
+
+
+
+#btn4:checked ~ .cards #card1{
+    left: -900px;
+    border-radius: 20px;
+}
+
+#btn4:checked ~ .cards #card2{
+    left: -900px;
+    border-radius: 20px;
+}
+
+#btn4:checked ~ .cards #card3{
+    left: -900px;
+    border-radius: 20px;
+}
+#btn4:checked ~ .cards #card4{
+    left: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+#btn4:checked ~ .cards #card4{
+    left: 10px;
+    border-radius: 20px;
+}
+
+
+#btn5:checked ~ .cards #card5{
+    left: 10px;
+    border-radius: 20px;
+}
+
+  

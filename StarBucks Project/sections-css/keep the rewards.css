@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    /* margin: 0; */
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    /* background-color: #000;
+    color: #fff; */
+    /* border: 2px solid red; */
+}
+
+/*  </> Custome CSS Library </> */
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  </> End Custome CSS Library </> */
+
+
+
+/* #d4e9e2 */
+
+.bg-keep-the-rewards{
+    background-color: #d4e9e2;
+    padding: 4rem 0rem;
+}
+
+.keep-the-rewards-title{
+    max-width: 890px;
+}
+
+.keep-the-rewards-title> p{
+    text-align: center;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+}
+
+.boxes> .box> img{
+    max-width: 180px;
+}
+
+.boxes{
+    /* border: 2px solid red; */
+    padding-top: 3rem;
+    align-items: start;
+    gap: 2rem;
+}
+
+.boxes> .box{
+    /* border: 2px solid blue; */
+    max-width: 400px;
+    min-height: 180px;
+    justify-content: space-between;
+    /* align-items: end; */
+}
+
+.box> p{
+    text-align: center;
+}
+
+.btn{
+    margin-top: 2rem;
+}
+
+.btn> button{
+    font-size: normal;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    padding: 0.6rem 1rem;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    background-color: #008248;
+}
