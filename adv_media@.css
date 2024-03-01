@@ -56,6 +56,10 @@
     .mbl-hide{
         display: none;
     }
+
+    .epadd .containt-holder{
+        padding: 0px 0px;
+    }
     
     .full-width-100 .getting-started-title h2{
         font-size: 28px;
@@ -100,7 +104,7 @@
     }
 
     .boxes .step-info{
-        align-items: center;
+        align-items: start;
         justify-content: start;
         padding: 0px 0px 32px 16px;
     }
@@ -171,7 +175,6 @@
 
     .get-your-favorites-btns button i{
         font-size: 8px;
-        color: gold;
     }
 
 
@@ -411,7 +414,7 @@
         justify-content: start;
         align-items: start;
         flex-direction: column;
-        padding: 0px 16px;
+        /* padding: 0px 16px; */
     }
 
 
@@ -479,19 +482,22 @@
     /* keep the rewards */
 
     .boxes .step-info{
-        align-items: center;
+        align-items: start;
         justify-content: start;
         padding: 0px 0px 32px 16px;
     }
+
     .boxes .remov-padd-small-fon {
         padding: 0px 0px 0px 16px;
+    }
+
+    #img-delta-bank {
+        align-self: center;
     }
 
     .epadd{
         padding: 32px 16px 32px 16px;
     }
-
-
 
     #img-delta-bank img{
         max-width: 125px;
@@ -521,7 +527,7 @@
 @media (max-width: 1023px) {
 
     .containt-holder{
-        padding: 0px 20px;
+        padding: 0px 16px;
     }
 
     .for-arrow i{
