@@ -100,7 +100,7 @@
     }
 
     .boxes .step-info{
-        align-items: start;
+        align-items: center;
         justify-content: start;
         padding: 0px 0px 32px 16px;
     }
@@ -329,7 +329,7 @@
 
     #img-delta-bank img{
         max-width: 125px;
-        padding-bottom: 32px;
+        padding-bottom: 0px;
     }
 
     #flex{
@@ -479,7 +479,7 @@
     /* keep the rewards */
 
     .boxes .step-info{
-        align-items: start;
+        align-items: center;
         justify-content: start;
         padding: 0px 0px 32px 16px;
     }
