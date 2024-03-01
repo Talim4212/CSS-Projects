@@ -176,7 +176,7 @@ header, nav, main{
     align-items: start;
     width: 46.45%;
     min-width: 100%;
-    /* border: 2px solid red; */
+    margin-top: 30px;
 }
 
 .bg-star .free-coffe-title> h1{
@@ -353,12 +353,12 @@ a:hover{
 }
 
 .get-your-favorites-btns .brdr{
-    box-shadow: inset 0px -5px 0px 0px var(--green-color);
+    box-shadow: inset 0px -4px 0px 0px var(--green-color);
 }
 
 .get-your-favorites-btns button i{
     font-size: 10px;
-    color: gold;
+    color: rgb(203, 162, 88);
 }
 
 
@@ -827,8 +827,7 @@ hr{
 .linksZ> .li-tags{
     min-width: 150px;
     max-width: 220px;
-    padding-right: 2%;
-    /* padding: 5px; */
+    padding: 0px 6px;
 }
 .linksZ .About-us{
     min-width: 200px;
