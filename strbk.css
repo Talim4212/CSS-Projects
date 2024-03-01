@@ -348,6 +348,9 @@ a:hover{
     font-weight: 600;
     background-color: transparent;
 }
+.get-your-favorites-btns button:hover{
+    cursor: pointer;
+}
 
 .get-your-favorites-btns .brdr{
     box-shadow: inset 0px -5px 0px 0px var(--green-color);
@@ -423,6 +426,11 @@ a:hover{
     max-width: 112px;
     padding: 48px 0px 0px 0px;
 }
+.endless-img img:hover {
+    cursor: pointer;
+}
+
+
 
 .endless-info a{
     color: var(--green-color);
@@ -695,6 +703,10 @@ a:hover{
 }
 .for-arrow a{
     cursor: default;
+}
+
+.for-arrow a:hover{
+    cursor: pointer;
 }
 
 
